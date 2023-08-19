@@ -14,6 +14,9 @@ provider "google" {
 resource "google_compute_network" "vpc_network" {
   name = "terraform-network"
 }
+resource "google_compute_address" "vm_static_ip" {
+  name = "terraform-static-ip"
+}
 resource "google_compute_instance" "vm_instance" {
   name         = "terraform-instance"
   machine_type = "e2-micro"
