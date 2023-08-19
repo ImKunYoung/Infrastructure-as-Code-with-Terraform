@@ -1,4 +1,5 @@
 `terraform init` <br>
 `terraform apply` <br>
 `terraform show` <br>
-`terraform destroy`
+`terraform destroy` <br>
+`terraform plan`
